@@ -1,0 +1,523 @@
+@charset "utf-8";
+
+.hide {
+    width: 0;
+    height: 0;
+    line-height: 0;
+    overflow: hidden;
+}
+
+/*  */
+div#wrap {
+    width: 100%
+        /* 1800px*/
+    ;
+}
+
+/*  */
+div#background {
+    z-index: 79999;
+    position: absolute;
+    display: none;
+    background-color: rgba(39, 39, 39, 0.616);
+    width: 100vw;
+    height: 100vh;
+}
+
+div#sea {
+    background-color: #fff;
+    height: 200px;
+}
+
+div#sea>article {
+    padding-top: 20px;
+    position: relative;
+    width: 500px;
+    margin: auto;
+}
+
+div#sea>article>input {
+    position: absolute;
+    width: 500px;
+    height: 30px;
+}
+
+div#sea>article>i {
+    position: absolute;
+    right: 0;
+}
+
+/*  */
+div#headerwrap {
+    background-color: black;
+}
+
+div#headerwrap>header {
+    position: relative;
+}
+
+p#btn {
+    display: none;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    left: 7%;
+    top: 20px;
+    z-index: 8000;
+    cursor: pointer;
+}
+
+p#btn>span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+}
+
+p#btn>span:nth-child(2) {
+    top: 22%;
+}
+
+p#btn>span:nth-child(3) {
+    top: 44%
+}
+
+p#btn>span:nth-child(4) {
+    top: 66%
+}
+
+p#btn>span:nth-child(5) {
+    top: 88%
+}
+
+div#headerwrap>header>article {
+    margin: 0 auto;
+    width: 77.77777777777778%
+        /*1400px*/
+    ;
+
+}
+
+div#headerwrap>header>article>h1>a>img {
+    padding: 15px 0px;
+}
+
+/*  */
+div#headerwrap>header>nav.btn1 {
+    position: absolute;
+    right: 5%
+        /*200px*/
+    ;
+    top: 0;
+    padding: 15px 0px;
+}
+
+div#headerwrap>header>nav.btn1>ul {
+    display: flex;
+}
+
+div#headerwrap>header>nav.btn1>ul>li {
+    border: 1px solid #fff;
+    width: 140px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+div#headerwrap>header>nav.btn1>ul>li:hover {
+    background-color: #fff;
+}
+
+div#headerwrap>header>nav.btn1>ul>li>a {
+    color: #fff;
+    line-height: 30px;
+}
+
+div#headerwrap>header>nav.btn1>ul>li>a:hover {
+    color: black;
+}
+
+div#headerwrap>header>nav.btn1>ul>li>a>i {
+    float: left;
+    margin-left: 20px;
+}
+
+/*  */
+aside {
+    width: 100%
+        /*1800px*/
+    ;
+    background-color: rgb(58, 58, 58);
+    margin: 0;
+}
+
+aside>ul {
+    margin: 0 auto;
+    padding: 20px 20px;
+    width: 1400px;
+    display: flex;
+    justify-content: space-around;
+}
+
+aside>ul>li {
+    width: 155.5555555555556px;
+    border-left: 0.5px solid rgba(255, 255, 255, 0.397);
+}
+
+aside>ul>li:nth-child(1) {
+    border-left: none;
+}
+
+aside>ul>li>a {
+    color: #fff;
+    display: block;
+    text-align: center;
+}
+
+aside>ul>li>a>i {
+    margin-bottom: 10px;
+}
+
+aside>ul>li>a>p {
+    text-align: center;
+    font: 17px '나눔스퀘어', sans-serif;
+}
+
+/*  */
+div#main_1 {
+    background: url('../img3/background.png') no-repeat;
+}
+
+div#main_1>h3 {
+    color: #fff;
+    font: bold 50px/200px '나눔스퀘어', sans-serif;
+    text-align: center;
+}
+
+/*  */
+div#main_2 {
+    background-color: #fff;
+    position: absolute;
+    top: 370px;
+    left: 5%;
+    width: 90%;
+    margin: 0 auto;
+    box-shadow: 1px 1px 40px gray;
+    z-index: 99999;
+}
+
+div#main_2>ul {
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+div#main_2>ul>li:hover {
+    font-weight: bold;
+}
+
+/*  */
+div#main_3 {
+    margin: 70px auto;
+    width: 90%;
+    position: relative;
+    overflow: hidden;
+}
+
+div#main_3>article.point,
+article.next {
+    display: none;
+}
+
+div#main_3>article.point {
+    position: absolute;
+    top: 27%;
+    left: 0;
+}
+
+div#main_3>article.next {
+    position: absolute;
+    top: 27%;
+    right: 0;
+}
+
+div#main_3>article.point>img {
+    width: 20px;
+}
+
+div#main_3>article.next>img {
+    width: 20px;
+}
+
+div#main_3>article.main {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+div#main_3>article.main>section.all {
+    width: 200%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 0;
+}
+
+div#main_3>article.main>section.all>section {
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+}
+
+
+div#main_3>article.main>section>section>figure {
+    width: 12.5%;
+}
+
+div#main_3>article.main>section>section>figure>img {
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+}
+
+div#main_3>article.main>section>section>figure>figcaption {
+    text-align: center;
+    margin-top: 10px;
+}
+
+div#main_3>article.main>section>section>figure:hover {
+    transform: scale(1.2);
+    transition: all ease 1s;
+}
+
+/*  */
+div#main_4 {
+    width: 100%;
+    margin: 0 auto;
+}
+
+div#main_4>div {
+    width: 100%;
+}
+
+div#main_4>div>article {
+    margin: 0 auto;
+    width: 80%;
+    margin-bottom: 100px;
+    position: relative;
+}
+
+div#main_4>div>article>dl {
+    width: 20%;
+}
+
+div#main_4>div>article>dl>dt {
+    font: bolder 28px/100px '나눔스퀘어', sans-serif;
+}
+
+div#main_4>div>article>dl>dd {
+    font: 20px/30px '나눔스퀘어', sans-serif;
+}
+
+div#main_4>div>article>section {
+    position: absolute;
+    left: 30%;
+    top: 150px;
+    display: flex;
+    width: 80%
+        /*1200px*/
+    ;
+    float: right;
+    flex-wrap: wrap;
+}
+
+div#main_4>div>article>section>figure {
+    width: 30%;
+    height: 400px;
+    box-shadow: 1px 1px 40px gray;
+    background-color: #fff;
+    margin-right: 20px;
+}
+
+div#main_4>div>article>section>figure:hover {
+    transform: scale(1.2);
+    transition: all ease 1s;
+}
+
+div#main_4>div>article>section>figure>img {
+    display: block;
+    margin: 0 auto;
+}
+
+div#main_4>div>article>section>figure>figcaption {
+    text-align: center;
+}
+
+div#main_4>div>article>section>figure>figcaption>dl {
+    width: 85%;
+    margin: 0 auto;
+}
+
+div#main_4>div>article>section>figure>figcaption>dl>dt {
+    font: bold 17px/25px '나눔스퀘어', sans-serif;
+    height: 70px;
+}
+
+div#main_4>div>article>section>figure>figcaption>dl>dd {
+    font: 16px/20px '나눔스퀘어', sans-serif;
+}
+
+/*  */
+div#main_4>div:nth-child(1) {
+    background: url('../img3/background/barista_creation_ice_range_XL.jpg') no-repeat left top;
+    background-size: 1500px 400px;
+}
+
+div#main_4>div:nth-child(1)>article {
+    height: 600px;
+
+}
+
+div#main_4>div:nth-child(2) {
+    background: url('../img3/background/cold.jpg') no-repeat left top;
+    background-size: 1500px 400px;
+}
+
+div#main_4>div:nth-child(2)>article>dl {
+    color: #fff;
+}
+
+div#main_4>div:nth-child(2)>article {
+    height: 600px;
+}
+
+div#main_4>div:nth-child(3) {
+    background: url('../img3/background/best_seller_XL.jpg') no-repeat left top;
+    background-size: 1500px 400px;
+}
+
+div#main_4>div:nth-child(3)>article {
+    height: 600px;
+}
+
+div#main_4>div:nth-child(4) {
+    background: url('../img3/background/espresso_range_XL.jpg') no-repeat left top;
+    background-size: 1500px 400px;
+}
+
+div#main_4>div:nth-child(4)>article>dl {
+    color: #fff;
+}
+
+div#main_4>div:nth-child(4)>article {
+    height: 1000px;
+}
+
+div#main_4>div:nth-child(5) {
+    background: url('../img3/background/barista_creation_ice_range_XL.jpg') no-repeat left top;
+    background-size: 1500px 400px;
+}
+
+div#main_4>div:nth-child(5)>article {
+    height: 1000px;
+}
+
+div#main_4>div:nth-child(6) {
+    background: url('../img3/background/espresso_range_XL.jpg') no-repeat left top;
+    background-size: 1500px 400px;
+}
+
+div#main_4>div:nth-child(6)>article>dl {
+    color: #fff;
+}
+
+div#main_4>div:nth-child(6)>article {
+    height: 1400px;
+}
+
+div#main_4>div:nth-child(7) {
+    background: url('../img3/background/world_explorations_range_XL.jpg') no-repeat left top;
+    background-size: 1500px 400px;
+}
+
+div#main_4>div:nth-child(7)>article {
+    height: 600px;
+}
+
+div#main_4>div:nth-child(8) {
+    background: url('../img3/background/master_origins_range_XL.jpg') no-repeat left top;
+    background-size: 1500px 400px;
+}
+
+div#main_4>div:nth-child(8)>article>dl {
+    color: #fff;
+}
+
+div#main_4>div:nth-child(8)>article {
+    height: 1000px;
+}
+
+/*  */
+div#main_4 div.change {
+    margin-top: 100px;
+}
+
+div#main_4 div.change>article {
+    display: block;
+    margin-bottom: 0;
+}
+
+div#main_4 div.change>article>section {
+    width: 100%;
+    top: 30px;
+    left: 0;
+    justify-content: space-around;
+}
+
+/*  */
+footer {
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0);
+}
+
+footer>dl {
+    margin: 0 auto;
+    padding: 50px 0px;
+    width: 1400px;
+    display: flex;
+}
+
+footer>dl>dt {
+    float: left;
+}
+
+footer>dl>dt>img {
+    width: 100px;
+}
+
+footer>dl>dd {
+    width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    /* float: left; */
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+footer>dl>dd>dl {
+    width: 155px;
+}
+
+footer>dl>dd>dl>dt {
+    font: bold 15px /40px '나눔스퀘어', sans-serif;
+}
+
+footer>dl>dd>dl>dd {
+    font: 15px /30px '나눔스퀘어', sans-serif
+}

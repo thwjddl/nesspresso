@@ -1,0 +1,770 @@
+@media screen and (min-width:1500px) {}
+
+@media screen and (max-width:1499px) and (min-width:980px) {
+    div#headerwrap>header>article {
+        margin: 0 auto;
+        width: 77.77777777777778%
+            /*1400px*/
+        ;
+    }
+
+    div#headerwrap>header>article>h1>a>img {
+        padding: 15px 0px;
+    }
+
+    /*  */
+    aside {
+        display: none;
+        z-index: 89999;
+        background-color: rgba(58, 58, 58, 0.86);
+        position: fixed;
+    }
+
+    aside>ul {
+        margin: 0 auto;
+        padding: 20px 20px;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    aside>ul>li {
+        margin-bottom: 20px;
+        width: 90%;
+        border-left: none;
+        border-bottom: 0.5px solid rgba(255, 255, 255, 0.397)
+    }
+
+    aside>ul>li:last-child {
+        border-bottom: none;
+    }
+
+    aside>ul>li:nth-child(1) {
+        border-left: none;
+    }
+
+    aside>ul>li>a {
+        color: #fff;
+        display: block;
+        text-align: center;
+        width: 155.5555555555556px;
+
+    }
+
+    aside>ul>li>a>i {
+        margin-bottom: 10px;
+    }
+
+    aside>ul>li>a>p {
+        text-align: center;
+        font: 17px /25px '나눔스퀘어', sans-serif;
+    }
+
+    /*  */
+    div#left {
+        background-image: none;
+    }
+
+    div#left>article:nth-child(2) {
+        background-color: #fff;
+        position: absolute;
+        top: 0;
+        right: 0%;
+        width: 170px;
+        height: 100%;
+    }
+
+    div#left>article:nth-child(2)>p {
+        width: 200px;
+        color: #000;
+        font: bold 20px '나눔스퀘어', sans-serif;
+        transform: rotate(-90deg);
+        position: absolute;
+        top: 45%;
+        left: -50px;
+    }
+
+    div#left>article:nth-child(2)>img {
+        position: absolute;
+        top: 25%;
+        left: 70px;
+    }
+
+    div#left>article.show>article.all>dl>dt {
+        font: 30px /60px'나눔스퀘어', sans-serif;
+
+    }
+
+    div#left>article.show>article.all>dl>dd {
+        font: 20px /30px '나눔스퀘어', sans-serif;
+    }
+
+    /*  */
+    div#middle>article:nth-child(1)>section {
+        width: 70%;
+    }
+
+    div#middle>article:nth-child(1) {
+        background-image: none;
+    }
+
+    div#middle>article:nth-child(3) {
+        background-image: none;
+    }
+
+    div#middle>article:nth-child(3)>section {
+        width: 70%;
+    }
+
+    /*  */
+    div#right {
+        background-image: none;
+    }
+
+    div#right>article:nth-child(2) {
+        background-color: black;
+        position: absolute;
+        top: 0;
+        left: 0%;
+        width: 170px;
+        height: 100%;
+    }
+
+    div#right>article:nth-child(2)>div {
+        width: 70px;
+        height: 70px;
+        background-color: #fff;
+        z-index: 7777;
+        border-radius: 50%;
+        position: absolute;
+        left: 150px;
+        top: 43%;
+    }
+
+    div#right>article:nth-child(2)>div>img {
+        width: 20px;
+        position: absolute;
+        top: 30%;
+        left: 25px;
+    }
+
+    div#right>article:nth-child(2)>p {
+        color: #fff;
+        font: bold 20px '나눔스퀘어', sans-serif;
+        transform: rotate(90deg);
+        position: absolute;
+        top: 47%;
+        left: 20px;
+        width: 230px;
+    }
+
+    div#right>article:nth-child(2)>img {
+        position: absolute;
+        top: 30%;
+        left: 30px;
+    }
+
+    div#right>article.show>article.all>dl>dt {
+        font: 30px /60px'나눔스퀘어', sans-serif;
+
+    }
+
+    div#right>article.show>article.all>dl>dd {
+        font: 20px /30px '나눔스퀘어', sans-serif;
+    }
+
+    /*  */
+    footer>dl {
+        width: 98.5%
+            /* 1400px */
+        ;
+        margin: 0 auto;
+        padding: 50px 0;
+        overflow: hidden;
+    }
+
+    footer>dl>dt {
+        float: none;
+        margin-left: 30px;
+        margin-bottom: 20px;
+    }
+
+    footer>dl>dt>img {
+        width: 100px;
+    }
+
+    footer>dl>dd {
+        width: 70%
+            /* 1200px */
+        ;
+        margin: 0 auto;
+        float: none;
+        color: #fff;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+
+    footer>dl>dd>dl {
+        width: 155px;
+    }
+
+    footer>dl>dd>dl>dt {
+        font: bold 12px /40px '나눔스퀘어', sans-serif;
+    }
+
+    footer>dl>dd>dl>dd {
+        font: 12px /25px '나눔스퀘어', sans-serif
+    }
+}
+
+@media screen and (max-width:979px) and (min-width:765px) {
+    div#cf0>ul>li {
+        text-align: center;
+        color: #fff;
+        width: 200PX;
+        font: 15px /30px '나눔스퀘어', sans-serif;
+        background-color: rgb(61, 130, 56);
+        margin-left: 20px;
+
+    }
+
+    div#headerwrap>header>article {
+        margin: 0 auto;
+        width: 77.77777777777778%
+            /*1400px*/
+        ;
+    }
+
+    div#headerwrap>header>article>h1>a>img {
+        padding: 15px 0px;
+    }
+
+    div#headerwrap>header>nav.btn1>ul>li {
+        width: 150px;
+    }
+
+    /*  */
+    aside {
+        display: none;
+        z-index: 89999;
+        background-color: rgba(58, 58, 58, 0.86);
+        position: fixed;
+    }
+
+    aside>ul {
+        margin: 0 auto;
+        padding: 20px 20px;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    aside>ul>li {
+        margin-bottom: 20px;
+        width: 90%;
+        border-left: none;
+        border-bottom: 0.5px solid rgba(255, 255, 255, 0.397)
+    }
+
+    aside>ul>li:last-child {
+        border-bottom: none;
+    }
+
+    aside>ul>li:nth-child(1) {
+        border-left: none;
+    }
+
+    aside>ul>li>a {
+        color: #fff;
+        display: block;
+        text-align: center;
+        width: 155.5555555555556px;
+
+    }
+
+    aside>ul>li>a>i {
+        margin-bottom: 10px;
+    }
+
+    aside>ul>li>a>p {
+        text-align: center;
+        font: 17px /25px '나눔스퀘어', sans-serif;
+    }
+
+    /*  */
+    div#left {
+        background-image: none;
+    }
+
+    div#left>article.show>article.all>img {
+        width: 700px;
+        margin-bottom: 70px;
+    }
+
+    div#left>article.show>article.all>dl {
+        margin-bottom: 50px;
+    }
+
+    div#left>article.show>article.all>dl>dt {
+        font: 30px /80px'나눔스퀘어', sans-serif;
+
+    }
+
+    div#left>article.show>article.all>dl>dd {
+        font: 25px /60px '나눔스퀘어', sans-serif;
+    }
+
+    div#left>article:nth-child(2) {
+        width: 30px;
+    }
+
+    div#left>article:nth-child(2)>p {
+        display: none;
+    }
+
+    div#left>article:nth-child(2)>img {
+        display: none;
+    }
+
+    /*  */
+    div#middle>article:nth-child(1)>section {
+        width: 75%;
+        padding-top: 50px;
+    }
+
+    div#middle>article:nth-child(1) {
+        background-image: none;
+    }
+
+    div#middle>article:nth-child(3) {
+        background-image: none;
+    }
+
+    div#middle>article:nth-child(3)>section {
+        width: 75%;
+        padding-top: 50px;
+    }
+
+    /*  */
+    div#right {
+        background-image: none;
+    }
+
+    div#right>article.show>article.all>img {
+        width: 700px;
+        margin-bottom: 70px;
+    }
+
+    div#right>article.show>article.all>dl {
+        margin-bottom: 50px;
+    }
+
+    div#right>article.show>article.all>dl>dt {
+        font: 30px /80px'나눔스퀘어', sans-serif;
+
+    }
+
+    div#right>article.show>article.all>dl>dd {
+        font: 25px /60px '나눔스퀘어', sans-serif;
+    }
+
+    div#right>article:nth-child(2) {
+        width: 50px;
+    }
+
+    div#right>article:nth-child(2)>div {
+        left: 20px;
+        top: 43%;
+    }
+
+    div#right>article:nth-child(2)>p {
+        display: none;
+    }
+
+    div#right>article:nth-child(2)>img {
+        display: none;
+    }
+
+    /*  */
+    div#main3>article:nth-child(2)>figure {
+        height: 120px;
+    }
+
+    div#main3>article:nth-child(2)>figure>figcaption {
+        margin: 25px 25px;
+    }
+
+    div#main3>article:nth-child(2)>figure>figcaption>dl {
+        width: 70%;
+    }
+
+    /*  */
+    footer>dl {
+        width: 98.5%
+            /* 1400px */
+        ;
+        margin: 0 auto;
+        padding: 50px 0;
+        overflow: hidden;
+    }
+
+    footer>dl>dt {
+        float: none;
+        margin-left: 30px;
+        margin-bottom: 20px;
+    }
+
+    footer>dl>dt>img {
+        width: 70px;
+    }
+
+    footer>dl>dd {
+        width: 70%
+            /* 1200px */
+        ;
+        margin: 0 auto;
+        float: none;
+        color: #fff;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+
+    footer>dl>dd>dl {
+        width: 155px;
+    }
+
+    footer>dl>dd>dl>dt {
+        font: bold 12px /40px '나눔스퀘어', sans-serif;
+    }
+
+    footer>dl>dd>dl>dd {
+        font: 12px /25px '나눔스퀘어', sans-serif
+    }
+}
+
+@media screen and (max-width:764px) {
+    div#headerwrap>header>nav.btn1>ul {
+        display: flex;
+    }
+
+    div#headerwrap>header>nav.btn1>ul>li {
+        border: none;
+        width: 100%;
+    }
+
+    div#headerwrap>header>nav.btn1>ul>li>a>p {
+        display: none;
+    }
+
+    div#cf0>ul>li {
+        text-align: center;
+        color: #fff;
+        width: 200PX;
+        font: 15px /30px '나눔스퀘어', sans-serif;
+        background-color: rgb(61, 130, 56);
+        margin-left: 20px;
+
+    }
+
+    /*  */
+    aside {
+        display: none;
+        z-index: 89999;
+        background-color: rgba(58, 58, 58, 0.86);
+        position: fixed;
+    }
+
+    aside>ul {
+        margin: 0 auto;
+        padding: 20px 20px;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    aside>ul>li {
+        margin-bottom: 20px;
+        width: 90%;
+        border-left: none;
+        border-bottom: 0.5px solid rgba(255, 255, 255, 0.397)
+    }
+
+    aside>ul>li:last-child {
+        border-bottom: none;
+    }
+
+    aside>ul>li:nth-child(1) {
+        border-left: none;
+    }
+
+    aside>ul>li>a {
+        color: #fff;
+        display: block;
+        text-align: center;
+        width: 155.5555555555556px;
+
+    }
+
+    aside>ul>li>a>i {
+        margin-bottom: 10px;
+    }
+
+    aside>ul>li>a>p {
+        text-align: center;
+        font: 17px /25px '나눔스퀘어', sans-serif;
+    }
+
+    /*  */
+    div#main1>h3 {
+        font: bold 38px/220px Arial, sans-serif;
+    }
+
+    /*  */
+    div#left {
+        background-image: none;
+    }
+
+    div#left>article.show>article.all>img {
+        margin-top: 30px;
+        width: 450px;
+        margin-bottom: 30px;
+    }
+
+    div#left>article.show>article.all>dl {
+        margin-bottom: 30px;
+    }
+
+    div#left>article.show>article.all>dl>dt {
+        font: 25px /80px'나눔스퀘어', sans-serif;
+
+    }
+
+    div#left>article.show>article.all>dl>dd {
+        font: 20px /60px '나눔스퀘어', sans-serif;
+    }
+
+    div#left>article.show>article.all>article {
+        transform: scale(0.8);
+    }
+
+    div#left>article.show>article.all>article i {
+        margin-bottom: 10px;
+    }
+
+    div#left>article:nth-child(2) {
+        width: 10px;
+    }
+
+    div#left>article:nth-child(2)>div {
+        width: 30px;
+        height: 30px;
+        left: -20px;
+        top: 40%;
+    }
+
+    div#left>article:nth-child(2)>div>img {
+        width: 10px;
+        top: 30%;
+        left: 10px;
+    }
+
+    div#left>article:nth-child(2)>p {
+        display: none;
+    }
+
+    div#left>article:nth-child(2)>img {
+        display: none;
+    }
+
+    /*  */
+    div#middle>article:nth-child(1)>section {
+        width: 75%;
+        padding-top: 50px;
+    }
+
+    div#middle>article:nth-child(1) {
+        background-image: none;
+    }
+
+    div#middle>article:nth-child(1)>section>p {
+        font: bold 15px /30px '나눔스퀘어', sans-serif;
+    }
+
+    div#middle>article:nth-child(1)>section>dl>dt {
+        font: 25px /60px '나눔스퀘어', sans-serif;
+        margin-bottom: 10px;
+    }
+
+    div#middle>article:nth-child(1)>section>dl>dd {
+        font: 15px /25px '나눔스퀘어', sans-serif;
+    }
+
+    /*  */
+    div#middle>article:nth-child(2)>section {
+        top: 40%;
+        left: -30px;
+        width: 60px;
+        height: 60px;
+    }
+
+    div#middle>article:nth-child(2)>section>p.pre {
+        position: absolute;
+        left: 7px;
+        top: 30%;
+    }
+
+    div#middle>article:nth-child(2)>section>p.pre>img {
+        width: 15px;
+    }
+
+    div#middle>article:nth-child(2)>section>p.next {
+        position: absolute;
+        right: 7px;
+        top: 30%;
+    }
+
+    div#middle>article:nth-child(2)>section>p.next>img {
+        width: 15px;
+    }
+
+    /*  */
+
+    div#middle>article:nth-child(3) {
+        background-image: none;
+    }
+
+    div#middle>article:nth-child(3)>section {
+        width: 75%;
+        padding-top: 50px;
+    }
+
+    div#middle>article:nth-child(3)>section>p {
+        font: bold 15px /30px '나눔스퀘어', sans-serif;
+    }
+
+    div#middle>article:nth-child(3)>section>dl>dt {
+        font: 25px /60px '나눔스퀘어', sans-serif;
+        margin-bottom: 10px;
+    }
+
+    div#middle>article:nth-child(3)>section>dl>dd {
+        font: 15px /25px '나눔스퀘어', sans-serif;
+    }
+
+    /*  */
+    div#right {
+        background-image: none;
+    }
+
+    div#right>article.show>article.all>img {
+        width: 450px;
+        margin-bottom: 30px;
+    }
+
+    div#right>article.show>article.all>dl {
+        margin-bottom: 30px;
+    }
+
+    div#right>article.show>article.all>dl>dt {
+        font: 20px /60px'나눔스퀘어', sans-serif;
+
+    }
+
+    div#right>article.show>article.all>dl>dd {
+        font: 15px /40px '나눔스퀘어', sans-serif;
+    }
+
+    div#right>article.show>article.all>article {
+        transform: scale(0.8);
+    }
+
+    div#right>article:nth-child(2) {
+        width: 30px;
+    }
+
+    div#right>article:nth-child(2)>div {
+        left: 20px;
+        top: 43%;
+        width: 30px;
+        height: 30px;
+    }
+
+    div#right>article:nth-child(2)>p {
+        display: none;
+    }
+
+    div#right>article:nth-child(2)>img {
+        display: none;
+    }
+
+    div#right>article:nth-child(2)>div>img {
+        width: 12px;
+        top: 29%;
+        left: 13px;
+    }
+
+
+    /*  */
+    div#main3>article:nth-child(2)>figure {
+        height: 300px;
+        padding: 5px;
+    }
+
+    div#main3>article:nth-child(2)>figure>figcaption {
+        margin: 20px 20px;
+        width: 60%;
+    }
+
+    div#main3>article:nth-child(2)>figure>figcaption>dl {
+        width: 50%;
+    }
+
+    /*  */
+    footer>dl {
+        width: 98.5%
+            /* 1400px */
+        ;
+        margin: 0 auto;
+        padding: 50px 0;
+        overflow: hidden;
+    }
+
+    footer>dl>dt {
+        float: none;
+        margin-left: 30px;
+        margin-bottom: 20px;
+    }
+
+    footer>dl>dt>img {
+        width: 70px;
+    }
+
+    footer>dl>dd {
+        width: 70%
+            /* 1200px */
+        ;
+        margin: 0 auto;
+        float: none;
+        color: #fff;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+
+    footer>dl>dd>dl {
+        width: 155px;
+    }
+
+    footer>dl>dd>dl>dt {
+        font: bold 12px /40px '나눔스퀘어', sans-serif;
+    }
+
+    footer>dl>dd>dl>dd {
+        font: 12px /25px '나눔스퀘어', sans-serif
+    }
+}
